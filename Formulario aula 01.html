@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+			<title>   Formulário  </title>
+		<style>
+.fundo {background-color:#00FFFF;}
+
+.bordaT {border: 1px solid gray;}
+
+.cadastro {width: 600px; height: 700px;}
+
+.dados {width: 250px}
+
+.local  {margin-top: -140px;
+	margin-left:300px;}
+
+.local2 {height: 120px}
+
+.corT {background-color: #7B68EE	; }
+
+.bordafs { border: solid #4B0082 4px; box-shadow: 0px 0px 52px #4B0082;  }
+
+.bordafsi {border: solid 2px #FF00FF;box-shadow: 0px 0px 32px #FF00FF;}
+
+
+
+		</style>	
+			
+			
+	</head>
+	
+	<body>
+		<form>
+		<b>
+		<fieldset class="fundo cadastro bordafs">	
+			<legend class="bordaT corT">Cadastro Geral</legend>
+
+			<fieldset class="dados bordafsi">
+				<legend class="bordaT corT">Dados Pessoais </legend>
+					Nome completo:<br>
+				<input type="text" style="width: 250px;"><br>
+				<br>
+				Profissão: <br>
+								<select>
+					<option>Programador</option>
+					<option>Secretário</option>
+					<option>Eletricista	</option>
+								</select>
+
+
+			</fieldset>
+
+			<div class="local">
+				<fieldset class="local2 bordafsi">
+					<legend class="borda corT">Localização</legend>
+
+					Email:<br>
+					<input type="text" style="width: 250px;"><br>
+					
+					Endereço:<br>
+					<input type="text" style="width: 250px;" ><br>
+
+
+				</fieldset>
+			</div>
+			<br>
+
+				<fieldset class="bordafsi">
+					<legend class="bordaT corT">Faixa Etária</legend>
+				<table>
+
+					<tr>
+					<td><input type="radio" name="idade">18 ou menos</td>
+					<td><input type="radio" name="idade">18 a 30</td>
+					</tr>
+
+					<tr>
+					<td><input type="radio" name="idade">30 a 50</td>
+					<td><input type="radio" name="idade">50+</td>
+					</tr>	
+
+				</table>
+
+
+				</fieldset>
+				<br>
+
+				<fieldset class="bordafsi">
+					<legend class="bordaT corT">Esportes que pratica</legend>
+
+				<input type="checkbox" name="Esportes">Futebol<br>
+				<input type="checkbox" name="Esportes">Basquete<br>
+				<input type="checkbox" name="Esportes">Vôlei<br>
+				<input type="checkbox" name="Esportes">Tênis<br>
+				<input type="checkbox" name="Esportes">Natação<br>
+
+				</fieldset>
+				<br>
+
+				<fieldset class="bordafsi">
+					<legend class="bordaT corT">Comentário</legend>
+
+					Mensagem:<br>
+					<textarea class="bordafsi" style="width: 550px;height: 100px;"></textarea>
+				</fieldset>
+
+				<center>
+				<table>
+					<tr>
+						<td><input type="submit" name="Enviar"></td>
+						<td><input type="reset" value="Limpar"></td>
+					</tr>
+
+				</table>
+			</center>
+
+
+
+
+			
+
+
+
+
+
+
+
+		</fieldset>
+	
+	
+	</b>
+	
+	
+	</form>
+	</body>
+</html>
